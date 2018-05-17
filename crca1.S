@@ -25,7 +25,6 @@
 		  mov	$0, %rdi
 		  jmp	.L4
 	
-
 	crcFast:
 		mov	$0, %rax
 		jmp	.L5
@@ -42,5 +41,3 @@
 		.rept 256
 		.byte 0
 		.endr
-		
-
