@@ -1,6 +1,6 @@
 # crc
 
-CRC-8 Algorithm implemented in Assembly, AT&T Syntax
+CRC-8 Algorithm implemented in X86-64 Assembly, AT&T Syntax
 
 
 Interfacing with c program that calls 
