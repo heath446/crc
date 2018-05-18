@@ -1,6 +1,6 @@
 # crc
 
-CRC-8 Algorithm implemented in X86-64 Assembly 
+CRC-8 Algorithm implemented in X86-64 Assembly and C
 
 
 ***************************************************************************
