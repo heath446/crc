@@ -15,8 +15,7 @@ System V AMD64-GCC/Linux in x64 platforms
 Syntax:
 AT&T
 
-
-Interfacing with c program that calls 
+c program calls 
 Assembly functions from main
 
 
