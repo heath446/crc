@@ -8,7 +8,7 @@ l1:
 	dec %rcx
         movq %rcx, %rax
 	movq $8, %rdx
-Initloop2:
+l2:
 	movq $0x80, %r8
 	andq %rax, %r8
 	jz NotDiv
@@ -21,7 +21,7 @@ NotDiv:
 EndDivIf:	
 	dec %rdx
 	test %rdx, %rdx
-	jnz Initloop2
+	jnz l2
 	
 	movb %al, crcTable(%rcx)
 	test %rcx, %rcx
