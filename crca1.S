@@ -11,12 +11,12 @@ Initloop1:
 Initloop2:
 	movq $0x80, %r8
 	andq %rax, %r8
-	jz NotDivisible
+	jz NotDiv
 Divisible:	
 	shlb $1, %al
 	xorb (polynomial), %al
 	jmp EndDivIf
-NotDivisible:	
+NotDiv:	
         shlb $1, %al
 EndDivIf:	
 	dec %rdx
