@@ -4,7 +4,7 @@
 	.text
 crcInit:
 	movq $256, %rcx
-Initloop1:	
+l1:	
 	dec %rcx
         movq %rcx, %rax
 	movq $8, %rdx
@@ -25,7 +25,7 @@ EndDivIf:
 	
 	movb %al, crcTable(%rcx)
 	test %rcx, %rcx
-	jnz Initloop1
+	jnz l1
 	ret
 
 crcFast://rsi=numBytes, rdi= buffer
