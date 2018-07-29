@@ -25,6 +25,6 @@ Assembly functions from main
 TODO:
 
 
--Finish Algorithm
+-Finish Algorithm ------> Done
 
 -Optimize Algorithm with conditional move
